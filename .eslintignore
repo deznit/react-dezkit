@@ -2,4 +2,7 @@ build/
 dist/
 node_modules/
 .snapshots/
+docs/
+example/
 *.min.js
+*.d.ts
