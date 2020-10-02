@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-dezkit'
-import 'react-dezkit/dist/index.css'
+import { Button, ThemeProvider, DefaultLightTheme } from 'react-dezkit';
+import 'react-dezkit/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+	return (
+		<ThemeProvider theme={DefaultLightTheme}>
+			<Button></Button>
+		</ThemeProvider>
+	);
+};
 
-export default App
+export default App;
